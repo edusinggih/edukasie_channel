@@ -1,0 +1,35 @@
+.status-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: background-color 0.3s;
+  font-size: 0.9rem;
+  color: #212529;
+  text-align: center;
+  min-height: 90px;
+}
+
+/* Warna garis status di kiri */
+.status-box.RUNNING {
+  border-left: 6px solid #28a745;
+}
+
+.status-box.STOP {
+  border-left: 6px solid #dc3545;
+}
+
+.status-box.STANDBY {
+  border-left: 6px solid #ffc107;
+}
+
+.status-box.POWER_OFF {
+  border-left: 6px solid #6c757d;
+}
+
+
+
+
+
